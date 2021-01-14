@@ -1,0 +1,30 @@
+body {
+    height: 1000px;
+}
+
+header {
+    background: black;
+    border: 3px solid green;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    border: 2px solid blue;
+    position: absolute;
+    width: 200px;
+}
+section {
+    border: 3px solid red;
+    margin-left: 200px;
+}
+footer {
+    background: black;
+    border: 3px solid orange;
+    bottom:0;
+    color: white;
+    left: 0;
+    position: fixed;
+    right: 0;
+}
