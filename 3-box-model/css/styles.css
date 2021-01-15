@@ -1,0 +1,38 @@
+body {
+    height: 1000px;
+}
+
+header {
+    background: black;
+    border: 3px solid green;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    border: 2px solid blue;
+    border-width: 4px; 
+    padding: 0 51px;
+    position: absolute;
+}
+
+li {
+    width: 58px;
+}
+
+section {
+    border: 3px solid red;
+    margin-left: 208px;
+    padding-left: 8px;
+}
+
+footer {
+    background: black;
+    border: 3px solid orange;
+    bottom:0;
+    color: white;
+    left: 0;
+    position: fixed;
+    right: 0;
+}
