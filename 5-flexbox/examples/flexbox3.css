@@ -27,7 +27,7 @@ article {
 article:nth-of-type(3) {
   flex: 3 200px;
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
 }
 
 article:nth-of-type(3) div:first-child {
