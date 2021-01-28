@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px;
+    grid-gap: 10px;
+}
+
+.box { 
+    background: black;
+    border-radius: 15px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    text-align:center;
+}
+
+.A {
+    grid-column: 1/3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.B {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row: 1/span 2;
+}
