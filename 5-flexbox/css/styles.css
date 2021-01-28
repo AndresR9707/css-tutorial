@@ -15,7 +15,7 @@ p {
 
 main { 
     display: flex;
-    flex-flow: wrap row-reverse;
+    flex-flow: wrap;
     justify-content: space-around;
 }
 
